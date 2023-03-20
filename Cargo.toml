@@ -1,0 +1,15 @@
+[package]
+name = "skia-try"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+skia-safe = { version = "*", features = ["gl"] }
+glutin = "0.30.6"
+glutin-winit = { version = "0.3"}
+winit = { version = "0.28.1"}
+raw-window-handle = { version = "0.5.0" }
+gl-rs = { package = "gl", version = "0.14.0" }
+
